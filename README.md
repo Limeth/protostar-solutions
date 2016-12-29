@@ -11,3 +11,8 @@ Otherwise, you can just pipe in the output regularly:
 ```bash
 ./exploit_stack#.sh | /opt/protostar/bin/stack#
 ```
+
+To debug from gdb, use the following line to run the binary with the exploit:
+```bash
+r < <(./exploit_stack#.sh)
+```
